@@ -6,6 +6,10 @@ const sidebarStatus = ref(false)
 
 const toggleSidebar = () => {
   sidebarStatus.value = !sidebarStatus.value
+  let bodyOverflow = document.getElementsByTagName('body')[0].style.overflow
+  if (bodyOverflow == 'hidden') {
+    document.getElementsByTagName('body')[0].style.overflow = 'auto'
+  } else document.getElementsByTagName('body')[0].style.overflow = 'hidden'
 }
 
 const menuFirstChildHeight = computed(() => {
