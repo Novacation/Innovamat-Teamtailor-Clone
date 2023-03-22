@@ -1,5 +1,6 @@
 <template>
-  <section class="flex flex-col text-neutral-800 px-5 mb-4">
+  <section
+    class="flex flex-col text-neutral-800 px-5 mb-4 max-w-[650px] mx-auto w-full">
     <h2
       class="text-[40px] w-[80%] text-center mx-auto font-bold leading-[50px] drop-shadow-md">
       About our project 🚀
