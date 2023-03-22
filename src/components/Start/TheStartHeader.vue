@@ -79,7 +79,7 @@ const menuChildsColor = computed(() => {
       <div
         class="flex flex-col justify-center items-center w-full mt-8 sm:flex-row sm:gap-x-20">
         <button
-          class="flex flex-col justify-center items-center headerBtns w-52 text-sm font-bold py-4 px-8 shadow-md drop-shadow-md rounded-md">
+          class="flex flex-col justify-center items-center headerBtns w-52 text-sm font-bold mt-4 py-4 px-8 shadow-md drop-shadow-md rounded-md">
           <a href="#">Connect</a>
         </button>
 
