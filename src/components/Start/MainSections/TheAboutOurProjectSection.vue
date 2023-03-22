@@ -1,7 +1,7 @@
 <template>
   <section class="flex flex-col text-neutral-800 px-5 mb-4">
     <h2
-      class="text-[40px] w-[80%] text-center mx-auto font-bold leading-[50px]">
+      class="text-[40px] w-[80%] text-center mx-auto font-bold leading-[50px] drop-shadow-md">
       About our project 🚀
     </h2>
 
