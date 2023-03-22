@@ -63,7 +63,7 @@ const menuChildsColor = computed(() => {
     <img
       src="https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/c7db2a8c-d905-4503-ae78-352117777c0c/original.png"
       alt="Logo de Innovamat"
-      class="w-44 self-center z-50" />
+      class="w-44 self-center z-40" />
     <div
       @click="toggleSidebar"
       class="burgerMenu flex flex-col justify-between items-center cursor-pointer"

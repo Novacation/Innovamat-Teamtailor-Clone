@@ -6,12 +6,14 @@ defineProps({
 
 <template>
   <nav
-    class="absolute top-0 w-full h-full transition-all bg-slate-100 shadow-md drop-shadow-md z-40"
+    class="absolute top-0 w-full h-full transition-all bg-slate-100 shadow-md drop-shadow-md z-40 text-neutral-800 overflow-y-auto overflow-x-hidden"
     :class="{ 'right-0': sidebarStatus, 'right-full': !sidebarStatus }">
-    <p>Start</p>
-    <p>Teams</p>
-    <p>Locations</p>
-    <p>Jobs</p>
+    <ul class="w-full mt-20 text-[24px] font-bold">
+      <li class="py-3 px-8"><p>Start</p></li>
+      <li class="py-3 px-8"><p>Teams</p></li>
+      <li class="py-3 px-8"><p>Locations</p></li>
+      <li class="py-3 px-8"><p>Jobs</p></li>
+    </ul>
 
     <div>
       <p>Employee</p>
