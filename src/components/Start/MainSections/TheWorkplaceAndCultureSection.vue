@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <section class="flex flex-col text-neutral-800">
     <div
