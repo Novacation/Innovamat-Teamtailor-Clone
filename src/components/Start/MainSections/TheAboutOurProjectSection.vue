@@ -2,7 +2,7 @@
   <section
     class="flex flex-col text-neutral-800 px-5 mb-4 max-w-[650px] mx-auto w-full">
     <h2
-      class="text-[40px] w-[80%] text-center mx-auto font-bold leading-[50px] drop-shadow-md">
+      class="text-[40px] w-[80%] text-center mx-auto font-bold leading-[50px] ">
       About our project 🚀
     </h2>
 
@@ -28,7 +28,7 @@
 </template>
 
 <style scoped>
-p {
+section h2, section p {
   font-family: 'Rubik', sans-serif;
 }
 </style>
