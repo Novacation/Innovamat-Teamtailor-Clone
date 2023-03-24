@@ -1,7 +1,8 @@
 <script setup>
 import TheAboutOurProjectSection from './MainSections/TheAboutOurProjectSection.vue'
-import TheCompanyValuesSection from './MainSections/TheCompanyValuesSection.vue';
+import TheCompanyValuesSection from './MainSections/TheCompanyValuesSection.vue'
 import TheProjectVideoSection from './MainSections/TheProjectVideoSection.vue'
+import TheTeamsSection from './MainSections/TheTeamsSection.vue'
 import TheWorkplaceAndCultureSection from './MainSections/TheWorkplaceAndCultureSection.vue'
 </script>
 
@@ -10,7 +11,8 @@ import TheWorkplaceAndCultureSection from './MainSections/TheWorkplaceAndCulture
     <TheProjectVideoSection />
     <TheAboutOurProjectSection />
     <TheWorkplaceAndCultureSection />
-    <TheCompanyValuesSection/>
+    <TheCompanyValuesSection />
+    <TheTeamsSection />
   </main>
 </template>
 
