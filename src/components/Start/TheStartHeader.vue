@@ -75,8 +75,8 @@ const menuChildsColor = computed(() => {
     <Sidebar :sidebar-status="sidebarStatus" />
 
     <div
-      class="w-full relative text-white flex flex-col self-center justify-center items-center pt-[80px] pb-14 sm:pt-[90px] md:max-w-[75%] lg:py-0">
-      <h1 class="text-center max-w-[430px] text-[50px] font-bold">
+      class="w-full relative text-white flex flex-col self-center justify-center items-center pt-[80px] pb-14 sm:pt-[90px] md:max-w-[100%] lg:py-0 lg:min-h-[90vh] lg:h-auto">
+      <h1 class="text-center w-full max-w-[630px] text-[40px] font-bold">
         Welcome to Innovamat
       </h1>
 
