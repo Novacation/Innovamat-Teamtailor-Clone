@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col justify-start items-center text-neutral-800 py-[60px]">
+    class="flex flex-col justify-start items-center text-neutral-800 pt-[60px]">
     <h2 class="text-[40px] w-[100%] text-center mb-10 font-bold leading-[50px]">
       Teams
     </h2>
